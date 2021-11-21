@@ -6,6 +6,7 @@ body {
     margin: 0 auto;
     width: 1530px;
     font-size: 16px;
+    background: #000000;
 }
 
 @media screen and (min-width: 1536px) {
