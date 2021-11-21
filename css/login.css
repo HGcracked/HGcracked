@@ -3,8 +3,23 @@ html {
 }
 
 body {
+    margin: 0 auto;
+    width: 1530px;
     font-size: 16px;
-    background: #000000;
+}
+
+@media screen and (min-width: 1536px) {
+    body {
+        min-width: 1530px;
+        width: 1530px
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    body {
+        min-width: 1900px;
+        width: 1900px;
+    }
 }
 
 .clearfix::before,
