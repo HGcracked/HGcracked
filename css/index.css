@@ -24,7 +24,7 @@ body {
 	margin: 120px auto;
 	width: 240px;
 	height: 360px;
-	background: #eb311d;
+	background: #ff0000;
 	border-radius: 5px;
 }
 .red_packet::before {
