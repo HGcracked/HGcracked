@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background: url(../img/eb04c87f3207ec4da0fa83098483e503e791.webp) no-repeat;
+	background-size: 100%;
+}
+
+.contenter {
+	margin: 0 auto;
+	max-width: 320px;
+	max-width: 420px;
+	width: 95%;
+}
+
+
+.red_packet {
+	/* display: none; */
+	position: relative;
+	margin: 120px auto;
+	width: 240px;
+	height: 360px;
+	background: #eb311d;
+	border-radius: 5px;
+}
+.red_packet::before {
+	content: '';
+	position: absolute;
+	bottom: 80px;
+	width: 240px;
+	height: 60px;
+	background: #eb311d;
+	border-bottom-left-radius: 80px;
+	border-bottom-right-radius: 80px;
+	z-index: 5;
+}
+.red_packet::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 240px;
+	height: 120px;
+	background: #f1230a;
+	border-radius: 5px;
+}
+
+.open {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-family: "黑体";
+	font-size: 26px;
+	border-radius: 50%;
+	z-index: 10;
+}
+.bg {
+	background: #efa635;
+}
+.open .kai {
+	border-radius: 50%;
+}
+.open .turn {
+	display: none;
+	width: 100%;
+}
+@keyframes move{
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(540deg);
+	}
+}
+
+.title {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+}
+.title .source img {
+	width: 20px;
+	vertical-align: bottom;
+}
+.title .source span {
+	margin-left: 5px;
+	color: #e0bf8c;
+}
+.title p {
+	margin-top: 10px;
+	font-weight: 700;
+	color: #e0bf8c;
+}
+
+.close {
+	position: absolute;
+	left: 50%;
+	bottom: -50px;
+	transform: translateX(-50%);
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 20px;
+	text-align: center;
+	color: #EFA635;
+	border: 2px solid #EFA635;
+	border-radius: 50%;
+	z-index: 10;
+}
+
+.benediction {
+	display: none;
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+}
+.benediction h1 {
+	color: yellow;
+	font-family: "宋体";
+}
