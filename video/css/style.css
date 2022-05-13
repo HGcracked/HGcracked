@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	margin: 0 auto;
+	height: 100vh;
+}
+
+@media screen and (min-width: 310px) {
+	body {
+		padding: 0 5px;
+		width: 100%;
+	}
+	
+	#title img {
+		width: 80%;
+	}
+	
+	.select {
+		padding: 30px 10%;
+	}
+	
+	.select .NameInfo {
+		font-size: 20px;
+	}
+	
+	.select select {
+		width: 66px;
+		height: 26px;
+	}
+	
+	.ipt .search #url {
+		padding: 0 35px 0 5px;
+		width: 85%;
+		height: 36px;
+		color: #AAAAAA;
+		font-size: 14px;
+		border: 1px solid #0099CC;
+		border-radius: 15px;
+	}
+	
+	.ipt .search img {
+		position: absolute;
+		right: 10%;
+		width: 20px;
+	}
+	
+	.btn a {
+		width: 85%;
+		height: 38px;
+		line-height: 38px;
+		border-radius: 19px;
+	}
+	
+}
+
+@media screen and (min-width: 1240px) {
+	body {
+		width: 1240px;
+	}
+	
+	#title img {
+		width: 40%;
+	}
+	
+	.select {
+		padding: 40px 30%;
+	}
+	
+	.select .NameInfo {
+		color: #0099CC;
+		font-size: 24px;
+	}
+	
+	.select select {
+		width: 86px;
+		height: 35px;
+		text-align: center;
+		color: #0099CC;
+		border: 1px solid #0099CC;
+		border-radius: 5px;
+	}
+	
+	.ipt {
+		padding: 15px 0;
+	}
+	
+	.ipt .search #url {
+		padding: 0 35px 0 5px;
+		width: 40%;
+		height: 45px;
+		color: #AAAAAA;
+		font-size: 16px;
+		border: 1px solid #0099CC;
+		border-radius: 20px;
+	}
+	
+	.ipt .search img {
+		position: absolute;
+		right: 31%;
+		width: 20px;
+	}
+	
+	.btn a {
+		width: 40%;
+		height: 45px;
+		line-height: 45px;
+		font-size: 18px;
+		border-radius: 22.5px;
+	}
+	
+}
+
+#title {
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.select {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.select .NameInfo {
+	color: #0099CC;
+}
+
+.select select {
+	text-align: center;
+	color: #0099CC;
+	border: 1px solid #0099CC;
+	border-radius: 5px;
+}
+
+.ipt {
+	width: 100%;
+}
+
+.ipt .search {
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 66px;
+	line-height: 66px;
+}
+
+.btn {
+	padding: 30px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.btn a {
+	display: block;
+	margin: 0 auto;
+	color: #FFFFFF;
+	background: #0099CC;
+}
